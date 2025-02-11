@@ -1,6 +1,7 @@
 {
   "name": "izzi.js-doc",
   "version": "0.1.0",
+  "homepage": "izzi.js-doc",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
@@ -13,7 +14,7 @@
     "start": "NODE_ENV=development craco start",
     "build": "NODE_ENV=production rimraf ./build && craco build && rimraf ./build/**/*.map",
     "test": "craco test",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
