@@ -5,18 +5,13 @@ export const COMMON_ROUTES = [
     hash: 'zYwORwb'
   },
   {
-    path: '/state',
-    name: 'state',
-    hash: 'abWoQrw'
-  },
-  {
     path: '/attribute',
     name: 'Dynamic attribute',
     hash: 'NWjKEoZ'
   },
   {
     path: '/state',
-    name: 'State',
+    name: 'state',
     hash: 'abWoQrw'
   },
   {

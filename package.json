@@ -13,6 +13,7 @@
     "start": "NODE_ENV=development craco start",
     "build": "NODE_ENV=production rimraf ./build && craco build && rimraf ./build/**/*.map",
     "test": "craco test",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -36,6 +37,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "autoprefixer": "^9.8.6",
+    "gh-pages": "^6.3.0",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
   }
